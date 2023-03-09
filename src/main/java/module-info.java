@@ -3,6 +3,8 @@ module com.enemyspeak.enemyspeak {
     requires javafx.fxml;
 
 
-    opens com.enemyspeak.enemyspeak to javafx.fxml;
-    exports com.enemyspeak.enemyspeak;
+    opens main to javafx.fxml;
+    opens controllers to javafx.fxml;
+    exports main;
+    exports controllers;
 }
