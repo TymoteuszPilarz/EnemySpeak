@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7753e61-cc97-449e-9c49-71f534a502be" name="Changes" comment="Added server, client">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/ClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/ServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/client.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ServerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/ClientApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/server.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +70,34 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
+  <component name="RunManager" selected="Compound.ChatApps">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main.ClientApp" />
+      <module name="EnemySpeak" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.ServerApp" />
+      <module name="EnemySpeak" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatApps" type="CompoundRunConfigurationType">
+      <toRun name="Client" type="Application" />
+      <toRun name="Server" type="Application" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Compound.ChatApps" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678367527966</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added server, client">
+      <created>1678368272179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678368272179</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
